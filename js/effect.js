@@ -199,6 +199,13 @@ $("document").ready(function () {
     // $("#b101").animate({ top: 240, left: vw + 450 }, 800);
     $(".balloons").css("opacity", "0.9");
     $(".balloons h2").fadeIn(3000);
+    $("#b11").addClass("animate");
+    $("#b22").addClass("animate");
+    $("#b33").addClass("animate");
+    $("#b44").addClass("animate");
+    $("#b55").addClass("animate");
+    $("#b66").addClass("animate");
+    $("#b77").addClass("animate");
     $(this)
       .fadeOut("slow")
       .delay(3000)

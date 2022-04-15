@@ -653,12 +653,12 @@ body {
     background-image: url("../img/bulb_yellow.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 
 .bulb-glow-red-after {
-  background-image: url("../../img/bulb_red.png");
+  background-image: url("../img/bulb_red.png");
   -webkit-animation: bulb_glow_red_after linear 1.2s infinite;
   -moz-animation: bulb_glow_red_after linear 1.2s infinite;
   -o-animation: bulb_glow_red_after linear 1.2s infinite;
@@ -668,57 +668,57 @@ body {
 
 @-webkit-keyframes bulb_glow_red_after {
   0% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
   50% {
-    background-image: url("../../img/bulb_red.png");
+    background-image: url("../img/bulb_red.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 @-moz-keyframes bulb_glow_red_after {
   0% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
   50% {
-    background-image: url("../../img/bulb_red.png");
+    background-image: url("../img/bulb_red.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 @-o-keyframes bulb_glow_red_after {
   0% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
   50% {
-    background-image: url("../../img/bulb_red.png");
+    background-image: url("../img/bulb_red.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 @-ms-keyframes bulb_glow_red_after {
   0% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
   50% {
-    background-image: url("../../img/bulb_red.png");
+    background-image: url("../img/bulb_red.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 @keyframes bulb_glow_red_after {
   0% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
   50% {
-    background-image: url("../../img/bulb_red.png");
+    background-image: url("../img/bulb_red.png");
   }
   100% {
-    background-image: url("../../img/bulb.png");
+    background-image: url("../img/bulb.png");
   }
 }
 
@@ -1105,7 +1105,43 @@ audio {
 }
 
 .balloons.animate {
-  
+  animation: gerak linear 8s infinite;
+}
+
+@keyframes gerak {
+  0% {
+    transform: translate(0px) rotate(20deg);
+  }
+  10% {
+    transform: translate(60px) rotate(20deg);
+  }
+  20% {
+    transform: translate(130px) rotate(0);
+  }
+  30% {
+    transform: translate(60px) rotate(-20deg);
+  }
+  40% {
+    transform: translate(0px) rotate(-20deg);
+  }
+  50% {
+    transform: translate(-60px) rotate(-20deg);
+  }
+  60% {
+    transform: translate(-120px) rotate(-20deg);
+  }
+  70% {
+    transform: translate(-170px) rotate(0);
+  }
+  80% {
+    transform: translate(-120px) rotate(20deg);
+  }
+  90% {
+    transform: translate(-60px) rotate(20deg);
+  }
+  100% {
+    transform: translate(0px) rotate(20deg);
+  }
 }
 
 .balloons h2 {
