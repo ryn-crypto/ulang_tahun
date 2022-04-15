@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
 body {
   /*background-color: #FFDAB9;	*/
   background-color: #000;
@@ -1104,8 +1106,9 @@ audio {
   background-size: 100px 183px;
 }
 
+/* animasi ballon untuk hp */
 .balloons.animate {
-  animation: gerak linear 8s infinite;
+  animation: gerak linear 10s infinite;
 }
 
 @keyframes gerak {
@@ -1369,11 +1372,11 @@ audio {
   display: none;
 }
 .message p {
-  font-family: "Signika", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   text-transform: uppercase;
-  color: #c4515c;
-  /*text-shadow: 2px 2px 2px #FFF;*/
+  color: #d86bb7;
+  text-shadow: 2px 2px 2px rgb(44, 38, 38);
   display: none;
   font-weight: bold;
 }
@@ -1403,3 +1406,7 @@ audio {
     		-webkit-transform: scale(0.9);
     	}
     }*/
+
+.fa-solid {
+  color: rgb(238, 83, 83);
+}
